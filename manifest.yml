@@ -1,0 +1,10 @@
+---
+applications:
+# Application
+  — name: example
+    memory: 896M
+    instances: 1
+    host: spring-boot-example-19-08-2000
+    path: target/demo-0.0.1-SNAPSHOT.war
+    buildpack:
+      - sap_java_buildpack
